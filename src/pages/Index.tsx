@@ -7,9 +7,9 @@ import EventsSection from '@/components/EventsSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import NewsletterSection from '@/components/NewsletterSection';
 import TalkProgramSection from '@/components/TalkProgramSection';
-import PartnersSection from '@/components/PartnersSection';
+import PartnersLogoStrip from '@/components/PartnersLogoStrip';
 import AboutSection from '@/components/AboutSection';
-import TeamSection from '@/components/TeamSection';
+import VisionSection from '@/components/VisionSection';
 import DonationSection from '@/components/DonationSection';
 import Footer from '@/components/Footer';
 
@@ -21,13 +21,13 @@ const Index = () => {
         <HeroSection />
         <StatsSection />
         <AboutSection />
+        <VisionSection />
         <FeaturesSection />
         <TalkProgramSection />
-        <TeamSection />
         <EventsSection />
-        <DonationSection />
-        <PartnersSection />
+        <PartnersLogoStrip />
         <TestimonialsSection />
+        <DonationSection />
         <NewsletterSection />
       </main>
       <Footer />
