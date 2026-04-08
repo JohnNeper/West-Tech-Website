@@ -6,12 +6,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/hooks/useAuth";
 import Index from "./pages/Index";
-import Activities from "./pages/Activities";
-import Workshops from "./pages/Workshops";
-import Hackathons from "./pages/Hackathons";
-import Accelerator from "./pages/Accelerator";
+import Programs from "./pages/Programs";
 import Partners from "./pages/Partners";
-import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -34,12 +30,8 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/activities" element={<Activities />} />
-            <Route path="/workshops" element={<Workshops />} />
-            <Route path="/hackathons" element={<Hackathons />} />
-            <Route path="/accelerator" element={<Accelerator />} />
+            <Route path="/programs" element={<Programs />} />
             <Route path="/partners" element={<Partners />} />
-            <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />

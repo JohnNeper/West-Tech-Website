@@ -25,11 +25,7 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { path: '/', label: t('nav.home') },
-    { path: '/activities', label: t('nav.activities') },
-    { path: '/workshops', label: t('nav.workshops') },
-    { path: '/hackathons', label: t('nav.hackathons') },
-    { path: '/accelerator', label: t('nav.accelerator') },
-    { path: '/team', label: t('nav.team') },
+    { path: '/programs', label: t('nav.programs') },
     { path: '/partners', label: t('nav.partners') },
     { path: '/contact', label: t('nav.contact') },
   ];
@@ -42,22 +38,18 @@ const Navbar: React.FC = () => {
     }`}>
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img 
               src="/lovable-uploads/c5268b09-fb94-43b8-a9fd-ad307d82ebae.png" 
               alt="West Tech logo" 
               className="w-10 h-10"
             />
-            <span className={`font-display text-xl tracking-widest uppercase ${
-              isScrolled ? 'text-white' : 'text-white'
-            }`}>
+            <span className="font-display text-xl tracking-widest uppercase">
               <span className="text-warm-gold">West</span> Tech
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-10">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -65,9 +57,7 @@ const Navbar: React.FC = () => {
                 className={`text-sm font-body tracking-wider uppercase transition-colors duration-300 ${
                   isActive(link.path) 
                     ? 'text-warm-gold' 
-                    : isScrolled 
-                      ? 'text-white/80 hover:text-warm-gold' 
-                      : 'text-white/80 hover:text-warm-gold'
+                    : 'text-white/80 hover:text-warm-gold'
                 }`}
               >
                 {link.label}
@@ -75,7 +65,6 @@ const Navbar: React.FC = () => {
             ))}
           </nav>
 
-          {/* Right side */}
           <div className="hidden lg:flex items-center gap-4">
             <LanguageSwitcher />
             <DonationButton size="sm" className="text-xs tracking-wider uppercase" />
@@ -96,16 +85,9 @@ const Navbar: React.FC = () => {
                   {t('admin.logout')}
                 </Button>
               </div>
-            ) : (
-              <Link to="/login">
-                <Button variant="ghost" size="sm" className="text-white/80 hover:text-warm-gold text-xs tracking-wider uppercase">
-                  {t('nav.login')}
-                </Button>
-              </Link>
-            )}
+            ) : null}
           </div>
 
-          {/* Mobile */}
           <div className="lg:hidden flex items-center gap-3">
             <LanguageSwitcher />
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white">
@@ -115,7 +97,6 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div
@@ -154,16 +135,7 @@ const Navbar: React.FC = () => {
                         {t('admin.logout')}
                       </Button>
                     </>
-                  ) : (
-                    <div className="flex gap-3">
-                      <Link to="/login" onClick={() => setIsMenuOpen(false)} className="flex-1">
-                        <Button variant="outline" className="w-full border-white/20 text-white hover:bg-white/10">{t('nav.login')}</Button>
-                      </Link>
-                      <Link to="/signup" onClick={() => setIsMenuOpen(false)} className="flex-1">
-                        <Button className="w-full bg-warm-gold hover:bg-warm-gold/90 text-warm-dark">{t('nav.signup')}</Button>
-                      </Link>
-                    </div>
-                  )}
+                  ) : null}
                 </div>
               </nav>
             </div>

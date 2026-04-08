@@ -7,9 +7,9 @@ const StatsSection: React.FC = () => {
 
   const stats = [
     { value: '2,000+', labelKey: 'stats.community' },
-    { value: '120+', labelKey: 'stats.startups' },
-    { value: '50+', labelKey: 'stats.workshops' },
-    { value: '75%', labelKey: 'stats.success' },
+    { value: '35+', labelKey: 'stats.startups' },
+    { value: '120+', labelKey: 'stats.events' },
+    { value: '8', labelKey: 'stats.cities' },
   ];
 
   return (
