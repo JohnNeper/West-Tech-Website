@@ -632,6 +632,23 @@ const resourcesFr = {
     "admin.donationUrlHelp": "Entrez l'URL de votre page de don",
     "admin.saveSettings": "Sauvegarder",
 
+    // Vision
+    "vision.badge": "Notre Vision",
+    "vision.title": "Construire l'écosystème technologique de l'Ouest Cameroun",
+    "vision.description1": "West Tech est bien plus qu'une association — nous sommes l'écosystème technologique pour la promotion de l'entrepreneuriat numérique, la sensibilisation et l'intégration technologique des jeunes, étudiants et startups dans la région de l'Ouest.",
+    "vision.description2": "Nous croyons que la prochaine génération d'innovateurs africains émergera de communautés comme la nôtre, où le talent rencontre l'opportunité, le mentorat et les ressources.",
+    "vision.pillar1.title": "Entrepreneuriat Numérique",
+    "vision.pillar1.desc": "Accompagner les porteurs de projets de l'idée au marché avec mentorat, outils et financement.",
+    "vision.pillar2.title": "Sensibilisation Tech",
+    "vision.pillar2.desc": "Initier les jeunes et étudiants aux métiers et opportunités du numérique.",
+    "vision.pillar3.title": "Intégration Mondiale",
+    "vision.pillar3.desc": "Connecter notre écosystème avec des partenaires et réseaux internationaux.",
+    "vision.pillar4.title": "Impact Durable",
+    "vision.pillar4.desc": "Construire un changement pérenne qui dépasse les projets individuels.",
+    "vision.horizonBadge": "Horizon 2035",
+    "vision.horizonTitle": "L'émergence par la technologie",
+    "vision.horizonDesc": "Aligné sur la Vision 2035 du Cameroun, nous bâtissons une génération d'entrepreneurs technologiques capables de transformer le tissu économique de la région de l'Ouest et au-delà.",
+
     // Event photos
     "events.photos": "Photos d'Événements",
     "events.gallery": "Notre Galerie",
