@@ -10,14 +10,9 @@ const Footer: React.FC = () => {
     <footer className="bg-warm-dark text-white">
       <div className="container px-6 mx-auto py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-          {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <img
-                src="/lovable-uploads/c5268b09-fb94-43b8-a9fd-ad307d82ebae.png"
-                alt="West Tech"
-                className="w-10 h-10"
-              />
+              <img src="/lovable-uploads/c5268b09-fb94-43b8-a9fd-ad307d82ebae.png" alt="West Tech" className="w-10 h-10" />
               <span className="font-display text-xl tracking-widest uppercase">
                 <span className="text-warm-gold">West</span> Tech
               </span>
@@ -32,27 +27,24 @@ const Footer: React.FC = () => {
             <div className="flex gap-5">
               {[
                 { icon: Twitter, href: "https://twitter.com/WestTechCM" },
-                { icon: Linkedin, href: "https://linkedin.com/company/westtechcm" },
+                { icon: Linkedin, href: "https://cm.linkedin.com/company/westtech1" },
                 { icon: Facebook, href: "https://facebook.com/WestTechCM" },
                 { icon: Instagram, href: "https://instagram.com/WestTechCM" },
               ].map((social, i) => (
-                <a key={i} href={social.href} className="text-white/30 hover:text-warm-gold transition-colors duration-300">
+                <a key={i} href={social.href} target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-warm-gold transition-colors duration-300">
                   <social.icon size={18} />
                 </a>
               ))}
             </div>
           </div>
 
-          {/* Links */}
           <div>
-            <h3 className="font-body text-xs tracking-[0.3em] uppercase text-warm-gold mb-8">{t('features.title')}</h3>
+            <h3 className="font-body text-xs tracking-[0.3em] uppercase text-warm-gold mb-8">{t('nav.programs')}</h3>
             <ul className="space-y-4">
               {[
-                { to: '/activities', label: t('nav.activities') },
-                { to: '/workshops', label: t('nav.workshops') },
-                { to: '/hackathons', label: t('nav.hackathons') },
-                { to: '/accelerator', label: t('nav.accelerator') },
-                { to: '/team', label: t('nav.team') },
+                { to: '/programs', label: t('nav.programs') },
+                { to: '/partners', label: t('nav.partners') },
+                { to: '/contact', label: t('nav.contact') },
               ].map((link, i) => (
                 <li key={i}>
                   <Link to={link.to} className="font-body text-sm text-white/40 hover:text-warm-gold transition-colors duration-300">
@@ -63,7 +55,6 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h3 className="font-body text-xs tracking-[0.3em] uppercase text-warm-gold mb-8">{t('contact.getInTouch')}</h3>
             <ul className="space-y-4">
@@ -92,12 +83,8 @@ const Footer: React.FC = () => {
             © {new Date().getFullYear()} West Tech. {t('footer.rights')}.
           </p>
           <div className="flex gap-8">
-            <a href="#" className="font-body text-xs text-white/20 hover:text-warm-gold transition-colors tracking-wider">
-              {t('footer.privacy')}
-            </a>
-            <a href="#" className="font-body text-xs text-white/20 hover:text-warm-gold transition-colors tracking-wider">
-              {t('footer.terms')}
-            </a>
+            <a href="#" className="font-body text-xs text-white/20 hover:text-warm-gold transition-colors tracking-wider">{t('footer.privacy')}</a>
+            <a href="#" className="font-body text-xs text-white/20 hover:text-warm-gold transition-colors tracking-wider">{t('footer.terms')}</a>
           </div>
         </div>
       </div>
