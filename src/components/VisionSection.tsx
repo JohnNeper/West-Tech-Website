@@ -15,12 +15,10 @@ const VisionSection: React.FC = () => {
 
   return (
     <section className="py-24 md:py-32 bg-warm-dark text-white relative overflow-hidden">
-      {/* Decorative elements */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-warm-gold/3 rounded-full blur-[120px]" />
 
       <div className="container px-6 mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Left: Vision statement */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -42,7 +40,6 @@ const VisionSection: React.FC = () => {
             </p>
           </motion.div>
 
-          {/* Right: Pillars */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {pillars.map((pillar, index) => (
               <motion.div
@@ -61,7 +58,6 @@ const VisionSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Vision 2035 banner */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
