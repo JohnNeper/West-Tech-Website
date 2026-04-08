@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, LightbulbIcon, GraduationCap, Compass, Code, Rocket } from "lucide-react";
+import { Users, LightbulbIcon, GraduationCap, Compass, Code, Rocket, Coffee, Trophy, Mic } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import ecosystemImage from '@/assets/ecosystem-image.jpg';
@@ -8,12 +8,12 @@ const FeaturesSection: React.FC = () => {
   const { t } = useTranslation();
 
   const features = [
-    { icon: Users, titleKey: 'features.community.title', descKey: 'features.community.desc' },
-    { icon: LightbulbIcon, titleKey: 'features.workshops.title', descKey: 'features.workshops.desc' },
-    { icon: GraduationCap, titleKey: 'features.students.title', descKey: 'features.students.desc' },
-    { icon: Compass, titleKey: 'features.resources.title', descKey: 'features.resources.desc' },
+    { icon: Mic, titleKey: 'features.talks.title', descKey: 'features.talks.desc' },
     { icon: Code, titleKey: 'features.hackathons.title', descKey: 'features.hackathons.desc' },
+    { icon: GraduationCap, titleKey: 'features.bootcamps.title', descKey: 'features.bootcamps.desc' },
     { icon: Rocket, titleKey: 'features.accelerator.title', descKey: 'features.accelerator.desc' },
+    { icon: Coffee, titleKey: 'features.afterwork.title', descKey: 'features.afterwork.desc' },
+    { icon: Trophy, titleKey: 'features.pitch.title', descKey: 'features.pitch.desc' },
   ];
 
   return (
@@ -34,7 +34,6 @@ const FeaturesSection: React.FC = () => {
           </h2>
         </motion.div>
 
-        {/* Ecosystem highlight */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -60,7 +59,6 @@ const FeaturesSection: React.FC = () => {
           </div>
         </motion.div>
 
-        {/* Feature cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
           {features.map((feature, index) => (
             <motion.div
