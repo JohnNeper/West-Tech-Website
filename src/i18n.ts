@@ -305,6 +305,23 @@ const resourcesEn = {
     "admin.donationUrlHelp": "Enter the URL of your donation page",
     "admin.saveSettings": "Save Settings",
 
+    // Vision
+    "vision.badge": "Our Vision",
+    "vision.title": "Building the technological ecosystem of Western Cameroon",
+    "vision.description1": "West Tech is more than an association — we are the technological ecosystem for the promotion of digital entrepreneurship, awareness and technological integration of young people, students and startups in the western region.",
+    "vision.description2": "We believe that the next generation of African innovators will emerge from communities like ours, where talent meets opportunity, mentorship and resources.",
+    "vision.pillar1.title": "Digital Entrepreneurship",
+    "vision.pillar1.desc": "Supporting project leaders from idea to market with mentoring, tools and funding.",
+    "vision.pillar2.title": "Tech Awareness",
+    "vision.pillar2.desc": "Introducing young people and students to digital careers and opportunities.",
+    "vision.pillar3.title": "Global Integration",
+    "vision.pillar3.desc": "Connecting our ecosystem with international partners and networks.",
+    "vision.pillar4.title": "Sustainable Impact",
+    "vision.pillar4.desc": "Building lasting change that goes beyond individual projects.",
+    "vision.horizonBadge": "Horizon 2035",
+    "vision.horizonTitle": "Emergence through technology",
+    "vision.horizonDesc": "Aligned with Cameroon's Vision 2035, we are building a generation of tech entrepreneurs capable of transforming the economic fabric of the western region and beyond.",
+
     // Event photos
     "events.photos": "Event Photos",
     "events.gallery": "Our Gallery",
