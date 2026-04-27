@@ -17,6 +17,11 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
+import ImageUploader from '@/components/admin/ImageUploader';
+
+const slugify = (s: string) =>
+  s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80);
 
 interface News {
   id: string;
@@ -27,6 +32,8 @@ interface News {
   excerpt: string | null;
   excerpt_fr: string | null;
   image_url: string | null;
+  slug: string | null;
+  category: string | null;
   is_published: boolean;
   published_at: string | null;
   created_at: string;
@@ -41,6 +48,8 @@ const AdminNews = () => {
   const [formData, setFormData] = useState({
     title: '',
     title_fr: '',
+    slug: '',
+    category: '',
     content: '',
     content_fr: '',
     excerpt: '',
@@ -72,6 +81,8 @@ const AdminNews = () => {
     setFormData({
       title: '',
       title_fr: '',
+      slug: '',
+      category: '',
       content: '',
       content_fr: '',
       excerpt: '',
@@ -87,6 +98,8 @@ const AdminNews = () => {
     setFormData({
       title: item.title,
       title_fr: item.title_fr || '',
+      slug: item.slug || '',
+      category: item.category || '',
       content: item.content || '',
       content_fr: item.content_fr || '',
       excerpt: item.excerpt || '',
@@ -99,17 +112,21 @@ const AdminNews = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
+    const finalSlug = formData.slug.trim() || slugify(formData.title);
+
     const newsData = {
       title: formData.title,
       title_fr: formData.title_fr || null,
+      slug: finalSlug || null,
+      category: formData.category || null,
       content: formData.content || null,
       content_fr: formData.content_fr || null,
       excerpt: formData.excerpt || null,
       excerpt_fr: formData.excerpt_fr || null,
       image_url: formData.image_url || null,
       is_published: formData.is_published,
-      published_at: formData.is_published ? new Date().toISOString() : null,
+      published_at: formData.is_published ? (editingNews?.published_at || new Date().toISOString()) : null,
     };
 
     if (editingNews) {
