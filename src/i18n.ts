@@ -7,6 +7,8 @@ const resourcesEn = {
     // Navigation
     "nav.home": "Home",
     "nav.programs": "Programs",
+    "nav.activities": "Activities",
+    "nav.blog": "Insights",
     "nav.partners": "Partners",
     "nav.contact": "Contact",
     "nav.login": "Log In",
@@ -347,6 +349,8 @@ const resourcesFr = {
     // Navigation
     "nav.home": "Accueil",
     "nav.programs": "Programmes",
+    "nav.activities": "Activités",
+    "nav.blog": "Actualités",
     "nav.partners": "Partenaires",
     "nav.contact": "Contact",
     "nav.login": "Connexion",
