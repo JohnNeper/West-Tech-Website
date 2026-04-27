@@ -3,14 +3,14 @@ import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import StatsSection from '@/components/StatsSection';
-import EventsSection from '@/components/EventsSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import NewsletterSection from '@/components/NewsletterSection';
-import TalkProgramSection from '@/components/TalkProgramSection';
 import PartnersLogoStrip from '@/components/PartnersLogoStrip';
 import AboutSection from '@/components/AboutSection';
 import VisionSection from '@/components/VisionSection';
 import DonationSection from '@/components/DonationSection';
+import ActivitiesShowcase from '@/components/ActivitiesShowcase';
+import NewsSection from '@/components/NewsSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -23,8 +23,8 @@ const Index = () => {
         <AboutSection />
         <VisionSection />
         <FeaturesSection />
-        <TalkProgramSection />
-        <EventsSection />
+        <ActivitiesShowcase />
+        <NewsSection />
         <PartnersLogoStrip />
         <TestimonialsSection />
         <DonationSection />

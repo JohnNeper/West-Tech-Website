@@ -17,6 +17,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
+import ImageUploader from '@/components/admin/ImageUploader';
 
 interface Event {
   id: string;
@@ -235,15 +236,12 @@ const AdminEvents = () => {
                     />
                   </div>
                 </div>
-                <div className="space-y-2">
-                  <Label htmlFor="image_url">{t('admin.imageUrl')}</Label>
-                  <Input
-                    id="image_url"
-                    value={formData.image_url}
-                    onChange={(e) => setFormData({ ...formData, image_url: e.target.value })}
-                    placeholder="https://..."
-                  />
-                </div>
+                <ImageUploader
+                  value={formData.image_url}
+                  onChange={(url) => setFormData({ ...formData, image_url: url })}
+                  folder="events"
+                  label={t('admin.imageUrl')}
+                />
                 <div className="flex items-center space-x-2">
                   <Switch
                     id="is_published"
