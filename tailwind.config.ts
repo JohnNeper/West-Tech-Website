@@ -19,8 +19,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				display: ['"Playfair Display"', 'serif'],
+				display: ['Fraunces', 'serif'],
 				body: ['Inter', 'sans-serif'],
+				serif: ['Fraunces', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -67,12 +68,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				warm: {
-					gold: '#ffd630',
-					cream: '#faf5ee',
-					terracotta: '#c4654a',
-					rose: '#d4a08c',
-					dark: '#1a1612',
-					brown: '#8b6f5e',
+					gold: 'hsl(var(--warm-gold))',
+					cream: 'hsl(var(--warm-cream))',
+					terracotta: 'hsl(var(--warm-terracotta))',
+					rose: 'hsl(var(--warm-rose))',
+					dark: 'hsl(var(--warm-dark))',
+					brown: 'hsl(var(--warm-brown))',
+					ink: 'hsl(var(--warm-ink))',
 				}
 			},
 			borderRadius: {
