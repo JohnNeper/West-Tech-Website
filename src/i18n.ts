@@ -42,8 +42,11 @@ const resourcesEn = {
     "about.explore": "Explore Our Programs",
 
     // Features
-    "features.title": "What We Do",
-    "features.subtitle": "Our Programs",
+    "features.title": "Programs that move the needle",
+    "features.subtitle": "What We Do",
+    "features.intro": "Six interconnected programs designed to take entrepreneurs from first idea to scaled, investable companies — and connect them with the talent, capital and networks they need.",
+    "features.exploreAll": "Explore all programs",
+    "features.flagshipBadge": "Our flagship promise",
     "features.ecosystemTitle": "An ecosystem designed for impact",
     "features.ecosystemDesc": "Free access to coworking space, expert mentoring, state-of-the-art equipment, and a multidisciplinary team dedicated to supporting entrepreneurs at every stage of their journey.",
     "features.talks.title": "Tech Talks",
@@ -439,8 +442,11 @@ const resourcesFr = {
     "about.explore": "Explorer Nos Programmes",
 
     // Features
-    "features.title": "Ce Que Nous Faisons",
-    "features.subtitle": "Nos Programmes",
+    "features.title": "Des programmes qui font bouger les lignes",
+    "features.subtitle": "Ce Que Nous Faisons",
+    "features.intro": "Six programmes interconnectés conçus pour accompagner les entrepreneurs de la première idée à l'entreprise scalable et investissable — en les connectant aux talents, capitaux et réseaux dont ils ont besoin.",
+    "features.exploreAll": "Tous les programmes",
+    "features.flagshipBadge": "Notre promesse",
     "features.ecosystemTitle": "Un écosystème conçu pour l'impact",
     "features.ecosystemDesc": "Accès gratuit à un espace de coworking, mentorat expert, équipements de pointe et une équipe pluridisciplinaire dédiée à l'accompagnement des entrepreneurs à chaque étape de leur parcours.",
     "features.talks.title": "Tech Talks",
