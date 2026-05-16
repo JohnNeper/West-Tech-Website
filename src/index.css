@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -103,16 +103,16 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', 'Inter', sans-serif;
     font-feature-settings: "rlig" 1, "calt" 1, "ss01" 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, h4 {
-    font-family: 'Instrument Serif', serif;
-    font-weight: 400;
-    letter-spacing: -0.015em;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.025em;
     line-height: 1.05;
   }
 }
@@ -175,8 +175,9 @@ html {
 
 /* Prose for blog */
 .prose-editorial {
-  font-family: 'Instrument Serif', serif;
+  font-family: 'Jost', 'Inter', sans-serif;
   font-size: 1.125rem;
+  font-weight: 400;
   line-height: 1.75;
   color: hsl(var(--foreground) / 0.85);
 }

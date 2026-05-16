@@ -19,9 +19,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				display: ['"Instrument Serif"', 'serif'],
-				body: ['Inter', 'sans-serif'],
-				serif: ['"Instrument Serif"', 'serif'],
+				display: ['Jost', 'sans-serif'],
+				body: ['Jost', 'Inter', 'sans-serif'],
+				serif: ['Jost', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
