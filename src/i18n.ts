@@ -399,10 +399,23 @@ const resourcesEn = {
     "activities.placeholder.hackathon": "Cameroon Climate Hackathon",
     "activities.placeholder.bootcamp": "Full-Stack Bootcamp Cohort #4",
     "activities.placeholder.afterwork": "Founders After Work — Bafoussam",
+
+    // Meetup Entrepreneur
+    "meetup.badge": "New · Monthly Gathering",
+    "meetup.title": "Meetup Entrepreneur",
+    "meetup.description": "A monthly rendez-vous where founders, builders and investors meet to share, learn and grow — hosted at the West Digital Hub.",
+    "meetup.cta": "Reserve your seat",
+    "meetup.learnMore": "Learn more",
+    "meetup.cardBadge": "Next edition",
+    "meetup.cardTitle": "Build the future, together.",
+    "meetup.frequency.label": "When",
+    "meetup.frequency.value": "Every month",
+    "meetup.location.label": "Where",
+    "meetup.location.value": "West Digital Hub",
+    "meetup.audience.label": "Who",
+    "meetup.audience.value": "Founders & innovators",
   }
 };
-
-const resourcesFr = {
   translation: {
     // Navigation
     "nav.home": "Accueil",
