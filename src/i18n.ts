@@ -814,6 +814,21 @@ const resourcesFr = {
     "activities.placeholder.hackathon": "Hackathon Climat Cameroun",
     "activities.placeholder.bootcamp": "Bootcamp Full-Stack Cohorte #4",
     "activities.placeholder.afterwork": "Founders After Work — Bafoussam",
+
+    // Meetup Entrepreneur
+    "meetup.badge": "Nouveau · Rendez-vous Mensuel",
+    "meetup.title": "Meetup Entrepreneur",
+    "meetup.description": "Un rendez-vous mensuel où fondateurs, bâtisseurs et investisseurs se retrouvent pour échanger, apprendre et grandir — au West Digital Hub.",
+    "meetup.cta": "Réserver ma place",
+    "meetup.learnMore": "En savoir plus",
+    "meetup.cardBadge": "Prochaine édition",
+    "meetup.cardTitle": "Construisons l'avenir, ensemble.",
+    "meetup.frequency.label": "Quand",
+    "meetup.frequency.value": "Chaque mois",
+    "meetup.location.label": "Où",
+    "meetup.location.value": "West Digital Hub",
+    "meetup.audience.label": "Pour qui",
+    "meetup.audience.value": "Fondateurs & innovateurs",
   }
 };
 
