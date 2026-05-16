@@ -19,9 +19,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				display: ['Fraunces', 'serif'],
+				display: ['"Instrument Serif"', 'serif'],
 				body: ['Inter', 'sans-serif'],
-				serif: ['Fraunces', 'serif'],
+				serif: ['"Instrument Serif"', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
