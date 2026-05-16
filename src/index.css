@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -110,9 +110,10 @@
   }
 
   h1, h2, h3, h4 {
-    font-family: 'Fraunces', serif;
-    font-feature-settings: "ss01" 1, "ss02" 1;
-    letter-spacing: -0.01em;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
   }
 }
 
@@ -174,7 +175,7 @@ html {
 
 /* Prose for blog */
 .prose-editorial {
-  font-family: 'Fraunces', serif;
+  font-family: 'Instrument Serif', serif;
   font-size: 1.125rem;
   line-height: 1.75;
   color: hsl(var(--foreground) / 0.85);

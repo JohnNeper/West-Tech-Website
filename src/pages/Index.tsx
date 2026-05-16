@@ -10,6 +10,7 @@ import AboutSection from '@/components/AboutSection';
 import VisionSection from '@/components/VisionSection';
 import DonationSection from '@/components/DonationSection';
 import ActivitiesShowcase from '@/components/ActivitiesShowcase';
+import MeetupSection from '@/components/MeetupSection';
 import NewsSection from '@/components/NewsSection';
 import Footer from '@/components/Footer';
 
@@ -23,6 +24,7 @@ const Index = () => {
         <AboutSection />
         <VisionSection />
         <FeaturesSection />
+        <MeetupSection />
         <ActivitiesShowcase />
         <NewsSection />
         <PartnersLogoStrip />
