@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Users, ArrowUpRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
+import meetupFlyer from '@/assets/meetup-entrepreneur-flyer.jpg';
 
 const MeetupSection: React.FC = () => {
   const { t } = useTranslation();
