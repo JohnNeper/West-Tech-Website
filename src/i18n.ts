@@ -416,6 +416,8 @@ const resourcesEn = {
     "meetup.audience.value": "Founders & innovators",
   }
 };
+
+const resourcesFr = {
   translation: {
     // Navigation
     "nav.home": "Accueil",
