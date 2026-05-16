@@ -409,11 +409,14 @@ const resourcesEn = {
     "meetup.cardBadge": "Next edition",
     "meetup.cardTitle": "Build the future, together.",
     "meetup.frequency.label": "When",
-    "meetup.frequency.value": "Every month",
+    "meetup.frequency.value": "Sunday, May 17 · 3:00 PM",
     "meetup.location.label": "Where",
-    "meetup.location.value": "West Digital Hub",
+    "meetup.location.value": "West Digital Hub · Bafoussam",
     "meetup.audience.label": "Who",
-    "meetup.audience.value": "Founders & innovators",
+    "meetup.audience.value": "Founders, students, innovators",
+    "video.badge": "Watch · 2 min",
+    "video.title": "Discover West Tech",
+    "video.subtitle": "A short film about our mission, our community and the entrepreneurs we serve across Cameroon and Africa.",
   }
 };
 
@@ -824,11 +827,14 @@ const resourcesFr = {
     "meetup.cardBadge": "Prochaine édition",
     "meetup.cardTitle": "Construisons l'avenir, ensemble.",
     "meetup.frequency.label": "Quand",
-    "meetup.frequency.value": "Chaque mois",
+    "meetup.frequency.value": "Dimanche 17 mai · 15h00",
     "meetup.location.label": "Où",
-    "meetup.location.value": "West Digital Hub",
+    "meetup.location.value": "West Digital Hub · Bafoussam",
     "meetup.audience.label": "Pour qui",
-    "meetup.audience.value": "Fondateurs & innovateurs",
+    "meetup.audience.value": "Fondateurs, étudiants, innovateurs",
+    "video.badge": "À découvrir · 2 min",
+    "video.title": "Découvrez West Tech",
+    "video.subtitle": "Un court film sur notre mission, notre communauté et les entrepreneurs que nous accompagnons au Cameroun et en Afrique.",
   }
 };
 
