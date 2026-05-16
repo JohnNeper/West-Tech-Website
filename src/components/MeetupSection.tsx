@@ -75,30 +75,23 @@ const MeetupSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.15 }}
             className="lg:col-span-5"
           >
-            <div className="border border-white/10 backdrop-blur-sm bg-white/[0.02] p-8 md:p-10">
-              <p className="font-body text-[10px] tracking-[0.4em] uppercase text-warm-gold mb-2">
-                {t('meetup.cardBadge')}
-              </p>
-              <h3 className="font-display text-3xl md:text-4xl text-white mb-8 leading-tight">
-                {t('meetup.cardTitle')}
-              </h3>
-
-              <ul className="space-y-6">
-                {details.map((d, i) => (
-                  <li key={i} className="flex items-start gap-4">
-                    <div className="shrink-0 w-10 h-10 border border-warm-gold/40 flex items-center justify-center">
-                      <d.icon className="w-4 h-4 text-warm-gold" strokeWidth={1.5} />
-                    </div>
-                    <div>
-                      <p className="font-body text-[10px] tracking-[0.3em] uppercase text-white/40 mb-1">
-                        {d.label}
-                      </p>
-                      <p className="font-display text-xl text-white">{d.value}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
+            <div className="relative">
+              <div className="absolute -inset-3 border border-warm-gold/30" aria-hidden />
+              <img
+                src={meetupFlyer}
+                alt="Meetup Entrepreneur — 1ère édition, West Digital Hub"
+                className="relative w-full h-auto shadow-2xl"
+              />
             </div>
+            <ul className="grid grid-cols-3 gap-4 mt-8">
+              {details.map((d, i) => (
+                <li key={i} className="text-center border-l border-warm-gold/30 first:border-l-0 px-2">
+                  <d.icon className="w-4 h-4 text-warm-gold mx-auto mb-2" strokeWidth={1.5} />
+                  <p className="font-body text-[9px] tracking-[0.25em] uppercase text-white/40 mb-1">{d.label}</p>
+                  <p className="font-body text-xs text-white">{d.value}</p>
+                </li>
+              ))}
+            </ul>
           </motion.div>
         </div>
       </div>
