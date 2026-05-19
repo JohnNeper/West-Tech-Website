@@ -168,7 +168,7 @@ const Programs = () => {
                 </Button>
                 <Button
                   variant="outline"
-                  className="border-white/30 text-white hover:bg-white/10 font-body tracking-wider uppercase text-sm px-10 h-14 rounded-none"
+                  className="bg-white/80 border-white/30 text-white hover:bg-white/70 font-body tracking-wider uppercase text-sm px-10 h-14 rounded-none"
                   asChild
                 >
                   <Link to="/partners">{t('programs.ctaPartner')}</Link>

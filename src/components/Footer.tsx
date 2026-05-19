@@ -79,12 +79,12 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="font-body text-xs text-white/20 tracking-wider">
+          <p className="font-body text-xs text-white/35 tracking-wider">
             © {new Date().getFullYear()} West Tech. {t('footer.rights')}.
           </p>
           <div className="flex gap-8">
-            <a href="#" className="font-body text-xs text-white/20 hover:text-warm-gold transition-colors tracking-wider">{t('footer.privacy')}</a>
-            <a href="#" className="font-body text-xs text-white/20 hover:text-warm-gold transition-colors tracking-wider">{t('footer.terms')}</a>
+            <a href="#" className="font-body text-xs text-white/35 hover:text-warm-gold transition-colors tracking-wider">{t('footer.privacy')}</a>
+            <a href="#" className="font-body text-xs text-white/35 hover:text-warm-gold transition-colors tracking-wider">{t('footer.terms')}</a>
           </div>
         </div>
       </div>

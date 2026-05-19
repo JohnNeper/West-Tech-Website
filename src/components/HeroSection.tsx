@@ -51,7 +51,7 @@ const HeroSection: React.FC = () => {
             <Button size="lg" className="bg-warm-gold hover:bg-warm-gold/90 text-warm-dark font-body tracking-wider uppercase text-sm px-8 h-14 rounded-none" asChild>
               <Link to="/contact">{t('hero.cta')}</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 font-body tracking-wider uppercase text-sm px-8 h-14 rounded-none" asChild>
+            <Button size="lg" variant="outline" className="bd-white/80 border-white/30 text-black hover:bg-white/70 font-body tracking-wider uppercase text-sm px-8 h-14 rounded-none" asChild>
               <Link to="/programs">{t('hero.secondaryCta')}</Link>
             </Button>
           </motion.div>
