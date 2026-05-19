@@ -40,15 +40,12 @@ const Navbar: React.FC = () => {
     }`}>
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-3">
-            <img 
-              src="/lovable-uploads/c5268b09-fb94-43b8-a9fd-ad307d82ebae.png" 
-              alt="West Tech logo" 
-              className="w-10 h-10"
+          <Link to="/" className="flex items-center">
+            <img
+              src="/lovable-uploads/c5268b09-fb94-43b8-a9fd-ad307d82ebae.png"
+              alt="West Tech"
+              className="h-12 md:h-14 w-auto"
             />
-            <span className="font-display text-xl tracking-widest uppercase">
-              <span className="text-warm-gold">West</span> Tech
-            </span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-10">

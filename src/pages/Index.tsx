@@ -6,6 +6,7 @@ import AboutSection from '@/components/AboutSection';
 import VideoSection from '@/components/VideoSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import MeetupSection from '@/components/MeetupSection';
+import MeetupGallery from '@/components/MeetupGallery';
 import NewsSection from '@/components/NewsSection';
 import PartnersLogoStrip from '@/components/PartnersLogoStrip';
 import DonationSection from '@/components/DonationSection';
@@ -22,6 +23,7 @@ const Index = () => {
         <VideoSection />
         <FeaturesSection />
         <MeetupSection />
+        <MeetupGallery />
         <NewsSection />
         <PartnersLogoStrip />
         <DonationSection />
