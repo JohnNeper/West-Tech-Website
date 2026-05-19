@@ -362,6 +362,9 @@ const resourcesEn = {
     "news.badge": "Latest from the field",
     "news.title": "Stories, insights and milestones from our community",
     "news.viewAll": "All articles",
+    "gallery.badge": "The Community in Action",
+    "gallery.title": "A vibrant ecosystem, captured live",
+    "gallery.desc": "Glimpses from the first edition of Meetup Entrepreneur at West Digital Hub — founders, mentors and innovators building together.",
 
     // Activities
     "activities.badge": "Recent Activities",
@@ -780,6 +783,9 @@ const resourcesFr = {
     "news.badge": "Dernières nouvelles du terrain",
     "news.title": "Récits, analyses et étapes-clés de notre communauté",
     "news.viewAll": "Tous les articles",
+    "gallery.badge": "La communauté en action",
+    "gallery.title": "Un écosystème vibrant, capté en direct",
+    "gallery.desc": "Quelques instants de la première édition du Meetup Entrepreneur au West Digital Hub — fondateurs, mentors et innovateurs qui construisent ensemble.",
 
     // Activités
     "activities.badge": "Activités Récentes",
